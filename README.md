@@ -1,10 +1,50 @@
-# Brain-Tumor-Detection-using-ML
-Project focused on Brain Tumor Detection and Classification. The aim is to discern the superior approach between the two methodologies.[CNN and VGG16]
+# Brain Tumor Detection using Machine Learning
 
-The Brain Tumor Detection Project focuses on leveraging machine learning techniques to automatically detect the presence of brain tumors in MRI images. Early detection of brain tumors is crucial for timely treatment and improved patient outcomes. By automating the detection process, this project seeks to assist medical professionals in diagnosing brain tumors more accurately and efficiently.
+## Overview
 
-Features:
-Automatic detection of brain tumors in MRI images.
-Classification of brain tumor types (e.g., glioma, meningioma, pituitary, notumor) based on image data.
-Visualization of model predictions and diagnostic results.
-Integration with existing medical imaging systems for seamless integration into clinical workflows.
+This project uses various **Machine Learning models** to detect brain tumors from MRI images. The aim is to evaluate and compare model performances and identify the best model for accurate classification.
+
+## Dataset
+
+- **Source**: [Brain Tumor MRI Dataset - Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+- **Classes**: Tumor | No Tumor
+- **Type**: MRI Images
+
+## Models Used
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Random Forest Classifier
+- Convolutional Neural Network (CNN)
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- ROC-AUC Curve
+
+## Tech Stack
+
+- Python 3.8+
+- Jupyter Notebook
+- NumPy, Pandas, Matplotlib, Seaborn
+- Scikit-learn
+- TensorFlow / Keras (for CNN)
+
+## ✍Author
+
+**Riya Verma**  
+ [LinkedIn](https://linkedin.com/in/iriyaverma)  
+
+## Acknowledgements
+
+- Inspired by real-world healthcare applications
+- Thanks to [Kaggle](https://www.kaggle.com/) for the dataset
+
+> *“Turning data into decisions, and decisions into health.”*
+
+
